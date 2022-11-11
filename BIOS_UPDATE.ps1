@@ -2,10 +2,9 @@
 <#
 # Name:     BIOS_UPDATE.ps1
 # Purpose:  Provide BIOS Update firmware for HP and Dell Workstations @ PRAPA
-# Author:   John Chan
-# Edited by: Jason Goncalves
-# Initial:  May 22, 2022 
-# Revision: August 15, 2022 - Updated BIOS firmware for Dell Optiplex 5090 & Precision 3460. HP G3, G4, G5 and Z2 workstation. November 8, 2022 revision by Jason Goncalves - Updated BIOS firmware for Dell Optiplex5000
+# Author:   Jason Goncalves
+# Initial:  November 10, 2022 
+# Revision: 
 # Notes:     
 #>
  
@@ -184,7 +183,7 @@ If ($Manufacturer -like "*Dell*" -and $Model -like $Precision3460)
 
    Write-Host "Continue with Dell Precision 3460 system" -ForegroundColor Green
 
-   if ($PCBIOSVersion -ge $Precision3460Ver)
+   if ([version]$PCBIOSVersion -ge [version]$Precision3460Ver)
    
     {
        Write-Host "BIOS version on PC is: " $PCBIOSVersion
