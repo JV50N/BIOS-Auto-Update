@@ -1,0 +1,679 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>S50 Firmware Family - Revision History</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:PMingLiU;
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"\@PMingLiU";
+	panose-1:2 1 6 1 0 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Cambria",serif;
+	color:#365F91;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	font-weight:bold;}
+p.footer, li.footer, div.footer
+	{mso-style-name:footer;
+	margin-right:0in;
+	margin-left:0in;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body bgcolor=white lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=44 cellpadding=0 width="100%"
+ style='width:100.0%'>
+ <tr style='height:1.25in'>
+  <td width=120 style='width:1.25in;padding:.75pt .75pt .75pt .75pt;height:
+  1.25in'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:"Arial",sans-serif'><img width=72 height=72 src=logo.bmp
+  alt="Description: Description: Description: Description: Description: HP Logo"></span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt;height:1.25in'>
+  <h1 align=center style='text-align:center'><b><span style='font-size:24.0pt;
+  font-family:"Arial",sans-serif;color:#015294'>S50 System Firmware (BIOS)
+  Family - Revision History</span></b></h1>
+  </td>
+ </tr>
+</table>
+
+<h2><b><span style='font-size:18.0pt;font-family:"Arial",sans-serif;color:#015294'>EFI
+Specification Revision: 2.7</span></b></h2>
+
+<h2><b><span style='font-size:18.0pt;font-family:"Arial",sans-serif;color:#015294'>&nbsp;</span></b></h2>
+
+<h2><b><span style='font-size:18.0pt;font-family:"Arial",sans-serif;color:#015294'>Models
+supported</span></b></h2>
+
+<p class=MsoNormal style='margin-left:23.75pt;line-height:115%;text-autospace:
+none'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><b><span style='font-family:"Arial",sans-serif'>HP Z2
+     Tower G5 Workstation</span></b></li>
+ <li class=MsoNormal><b><span style='font-family:"Arial",sans-serif'>HP Z2 SFF
+     G5 Workstation</span></b></li>
+ <li class=MsoNormal><b><span style='font-family:"Arial",sans-serif'>HP Z2 Mini
+     G5 Workstation</span></b></li>
+</ul>
+
+<h2 style='margin-top:24.0pt'><b><span style='font-size:18.0pt;font-family:
+"Arial",sans-serif;color:#015294'>History</span></b></h2>
+
+<p class=MsoNormal style='margin-left:.25in'>&nbsp;</p>
+
+<h3 style='margin-top:12.0pt'><b><span style='font-size:13.5pt;font-family:
+"Arial",sans-serif;color:#015294'>Version 01.04.04</span></b></h3>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Adds
+Re-size Bar option for PCIe devices.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Improves
+fan control (Z2 G5 Mini only).</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS package also includes the following updated firmware version:</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+CSME FW v14.1.65.1990</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= 376B5A61FC01CFDCEBAB1868DC9EE10C73DDCBC93F2AA2043894AA545FC8026B</span></p>
+
+<h3 style='margin-top:12.0pt'><b><span style='font-size:13.5pt;font-family:
+"Arial",sans-serif;color:#015294'>Version 01.04.03</span></b></h3>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Updates
+BIOS boot logo.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+CSME FW v14.1.65.1969.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= 5748AB711610300C464CCA5224853C6156CF79A23D7C438E445AF99D7DD90E91</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.04.02</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>This BIOS includes enhancements to mitigate
+security vulnerabilities CVE-2021-33103, CVE-2021-33107, CVE-2021-33122,
+CVE-2021-33123, CVE-2021-33124, CVE-2021-39297, CVE-2021-39298, CVE-2021-39299,
+CVE-2021-39300, CVE-2021-39301, CVE-2022-0005, CVE-2022-21123, CVE-2022-21151,
+CVE-2022-21166, CVE-2022-23924, CVE-2022-23925, CVE-2022-23926, CVE-2022-23927,
+CVE-2022-23928, CVE-2022-23929, CVE-2022-23930, CVE-2022-23931, CVE-2022-23932,
+CVE-2022-23933, CVE-2022-23934, CVE-2022-23953, CVE-2022-23954, CVE-2022-23955,
+CVE-2022-23956, CVE-2022-23957, and CVE-2022-23958.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>HP strongly recommends promptly
+transitioning to this updated BIOS version.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Updates Intel Microcode to
+M22A0653_000000F0 and M22A0655_000000F0.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Updates Intel Reference Code to
+v9.0.B1.60.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Updates Intel BIOS ACM to v1.13.34.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Updates Intel PXE ROM to v0.9.03 for
+Intel Ethernet Network Adapter I225-T1.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Updates Intel PXE ROM to v8.5.21 for
+Intel Ethernet Server Adapter I210-T1 and Intel Ethernet Server Adapter
+I350-T2.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Updates Intel MEBx to v14.0.0.0004.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Updates
+SIO FW to v9.18.17.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where PCR0 value would be reset after resuming from S3 with TXT
+Enabled.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS package also includes the following updated firmware version:</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+CSME FW v14.1.65.1933.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+Intel CSME FW includes enhancements to mitigate security vulnerability
+CVE-2022-0004.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>HP
+strongly recommends promptly transitioning to this updated Intel CSME FW
+version.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= 6B5916372F36C2FFA4562C47C73691A7589787BC268E67E5DEF121158FD90597</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.03.00</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS includes enhancements to mitigate security vulnerabilities CVE-2021-0091,
+CVE-2021-0103, CVE-2021-0107, CVE-2021-0111, CVE-2021-0114, CVE-2021-0115,
+CVE-2021-0116, CVE-2021-0117, CVE-2021-0118, CVE-2021-0119, CVE-2021-0124,
+CVE-2021-0125, CVE-2021-0127, CVE-2021-0157, CVE-2021-3661, CVE-2021-39297, and
+CVE-2021-39301, CVE-2021-3808 &amp; CVE-2021-3809</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>HP
+strongly recommends promptly transitioning to this updated BIOS version.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Updates Intel Microcode to
+M22A0653_000000EC and M22A0655_000000EE.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Updates Intel Reference Code to
+v9.0.A0.10.</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Updates Intel BIOS ACM to v1.13.27.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Updates
+UEFI-based Hardware Diagnostics to v2.2.7.0.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where NumLock LED would not illuminate during POST.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue which could result in excessive boot times with certain USB camera
+devices.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where certain USB camera devices could not be detected.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Improves
+PXE performance for Flex Fiber LAN card.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS package also includes the following updated firmware versions:</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+CSME FW v14.1.60.1807</span></p>
+
+<p class=MsoListParagraph style='margin-left:.25in'><span style='font-size:
+12.0pt;font-family:"Arial",sans-serif'>Cypress CCG5C FW v6.6 (Z2 G5 Tower only)</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= D1E194CFD5CE37BE8FF89822845463E9934A7B011270F75C9B011A0730DE34DB</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.02.03</span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Updates
+Intel BIOS ACM to v1.13.24.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where system would not boot with certain system memory configurations.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where system would not power up automatically after resuming S3 when
+system is set to Power On After Power Loss.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where National Instruments PCIe-8381 card would not function.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where iSCSI would not function when configured using DHCP.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= 286A3DC9D1606690047DD62B951977B94B08F4EF233B859F0F64F186A22D4BA7</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.02.02</span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Adds
+PXE boot function for Flex IO Fiber NIC. </span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Improves
+TPM2.0 SHA1 event log </span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where iSCSI boot would fail after changing some setting. </span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Removes
+the Magnetic Stripe Reader from BIOS setup menu.</span></p>
+
+<p class=MsoNormal style='margin-left:22.5pt;text-indent:4.5pt'><span
+style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= 6DFD5F7FD6EC54EC25A9CF9F75F39838DABF0B663F504F526E913DFE399416C2</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.02.01</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS includes enhancements to mitigate security vulnerabilities CVE-2020-8700,
+CVE-2020-12359, CVE-2020-24511, and CVE-2020-24512.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>HP
+strongly recommends promptly transitioning to this updated BIOS version.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Improves
+AMT error messaging when a boot failure occurs when using HP Z Connection
+Manager.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where Performance Control options would be available for unsupported
+configurations.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where “PCIe blower Fan” would be identified incorrectly in error
+messages.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS package also includes the following updated firmware version:</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+CSME FW v14.1.53.1649</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+Intel CSME FW includes enhancements to mitigate security vulnerabilities
+CVE-2020-8703, CVE-2020-8704, CVE-2020-24506, and CVE-2020-24507.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>HP
+strongly recommends promptly transitioning to this updated Intel CSME FW
+version.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= 90849649ADB92DA71E7BAF7A4404325CB266B903622A576809CD460785DD65FF</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.01.10</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Adds
+support for HP Flex 1GbE Fiber Single Port Network Interface Card.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+=9230DF8A30192C3C972AA8FC7657BFF442F3BF64518C7029D1596C583CD6913B</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.01.09</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where system would reset when attempting to resume from S3 with hybrid
+sleep enabled on Intel Core i7-10700 and Intel Xeon W-1250 processors.</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+=19E006C292BF36808488D86DCE86521CAE6AE06B07A665C6FF331B56934D243F</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.01.08</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>Updates
+Intel RAID Option ROM/Driver to v17.8.6.5171.</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>Enables
+future graphics cards (Z2 G5 SFF only).</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS package also includes the following updated firmware version: </span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+Alpine Ridge NVM FW v46.0.1.1.3 (Z2 G5 Tower only)</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+Titan Ridge NVM FW v61.0.1.2.1 (Z2 G5 SFF only)</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+Titan Ridge NVM FW v60.0.1.2.1 (Z2 G5 Mini only)</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+=5AAFE408502A5D41F5694A63EA914DF7D40B0212AF81DBE4D13B544D17A46E1A</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.01.07</span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS includes enhancements to mitigate security vulnerabilities CVE-2020-0593,
+CVE-2020-6929, CVE-2020-8694, and CVE-2020-8695.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>HP
+strongly recommends promptly transitioning to this updated BIOS version.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Updates
+Intel Microcode to M22A0653_000000E0 and M22A0655_000000E0.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Updates
+Intel Reference Code to v9.0.3F.20.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Corrects
+SMBIOS System Enclosure type to 23h “Mini PC.” (Z2 G5 Mini only).</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS package also includes the following updated firmware version:</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+CSME FW v14.0.45.1389</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+Intel CSME FW includes enhancements to mitigate security vulnerabilities
+CVE-2020-8705, CVE-2020-8744, CVE-2020-8745, CVE-2020-8746, CVE-2020-8747,
+CVE-2020-8749, CVE-2020-8752, CVE-2020-8753, CVE-2020-8754, CVE-2020-8755,
+CVE-2020-8756, CVE-2020-8757, CVE-2020-8760, CVE-2020-12297, CVE-2020-12303,
+CVE-2020-12355, and CVE-2020-12356.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>HP
+strongly recommends promptly transitioning to this updated Intel CSME FW
+version.</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+Titan Ridge NVM FW v58.0.1.2.2 (Z2 G5 SFF only)</span></p>
+
+<p class=MsoNormal style='text-indent:.25in'><span style='font-family:"Arial",sans-serif'>Cypress
+CCG5C FW v5.7 (Z2 G5 Tower only)</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Cypress
+ACG1F FW v6.0 (Z2 G5 SFF and Z2 G5 Mini only)</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+=367B8FD6B14E7DC07D5875660438A030C1235E43F22BD6E8BDABD4AAD5A33C36</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.01.03</span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Adds
+Quiet Mode to Performance Control (Z2 G5 Tower and Z2 G5 SFF only).</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Includes
+multiple improvements to Performance Control.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where system could hang when booting with Thunderbolt card present.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where Thunderbolt device would not be recognized after warm reset.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue where KVM headless mode would not work when using discrete graphics as
+primary display (Z2 G5 Mini Performance only).</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Fixes
+an issue preventing the completion of Secure Erase Crypto Scramble on
+Self-Encrypting Drives.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+=</span><span style='font-size:10.0pt;font-family:"Calibri",sans-serif;
+color:black'> </span><span style='font-family:"Arial",sans-serif'>C6AE29F89C0A779739C7D1BAB9F1C1151F4FB7EEE517C3C4B92825311670D145</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.01.01</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Adds
+F10 and WMI setting for Performance Control (Z2 G5 Mini only).</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Improves
+fan control (Z2 G5 Mini only).</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Adds
+ability to erase SATA and NVMe devices in compliance with NIST SP800-88.</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS package also includes the following updated firmware version:</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+Titan Ridge NVM FW v58.0.1.2.1 (Z2 G5 Mini only).</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= 08DCFC8B96D006EC38071A5FB54B637DA3B2505A08DB0059C828D81B6ADD0B50</span></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:13.5pt;font-family:"Arial",sans-serif;
+color:#015294'>Version 01.00.05</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Initial
+system firmware (BIOS) version (Z2 G5 Tower and Z2 G5 SFF only).</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS package also includes the following updated firmware version:</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+CSME FW v14.0.39.1339</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= CE1A727FAA85DE5CB2A42932CE4910F77A8973AA525B7B71F14663C9C9CB0230</span></p>
+
+<h3 style='margin-top:12.0pt'><b><span style='font-size:13.5pt;font-family:
+"Arial",sans-serif;color:#015294'>Version 01.00.02</span></b></h3>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Initial
+system firmware (BIOS) version (Z2 G5 Mini only).</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>This
+BIOS package also includes the following updated firmware version:</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+CSME FW v14.0.37.1165</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+Alpine Ridge NVM FW v45.0.0.1.2 (Z2 G5 Tower only)</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+Titan Ridge NVM FW v58.0.0.2.2 (Z2 G5 SFF only)</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Intel
+Titan Ridge NVM FW v58.0.0.2.3 (Z2 G5 Mini only)</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Cypress
+CCG5C FW v5.3 (Z2 G5 Tower only)</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>Cypress
+ACG1F FW v5.0 (Z2 G5 SFF and Z2 G5 Mini only)</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:"Arial",sans-serif'>PCR0
+= 67DC6A4B0C12F1D82F3A00CE2A66148FE8C11ED1E63417CEC56260B0C79D56D4</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-family:"Arial",sans-serif'>&nbsp;</span></p>
+
+<div class=MsoNormal align=center style='text-align:center'><span
+style='font-family:"Arial",sans-serif'>
+
+<hr size=1 width="100%" align=center>
+
+</span></div>
+
+<p class=footer><span style='font-family:"Arial",sans-serif'>© Copyright 2020
+HP Development Company, L.P. <br>
+Product names mentioned herein may be trademarks and/or registered trademarks
+of their respective companies. </span></p>
+
+</div>
+
+</body>
+
+</html>

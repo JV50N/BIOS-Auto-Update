@@ -1,0 +1,55 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Provider    = %Provider%
+Class       = Firmware
+ClassGuid   = {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+DriverVer   = 03/24/2022,02.13.00.0
+CatalogFile = R01_021300.cat
+PnpLockdown = 1
+
+[Manufacturer]
+%MfgName% = Firmware,NTx86,NTamd64,NTarm
+
+[Firmware.NTx86]
+%DeviceDesc% = Firmware_Install,UEFI\RES_{5C6D9EF5-CA7F-48F7-B999-4786740D3082}
+
+[Firmware.NTamd64]
+%DeviceDesc% = Firmware_Install,UEFI\RES_{5C6D9EF5-CA7F-48F7-B999-4786740D3082}
+
+[Firmware.NTarm]
+%DeviceDesc% = Firmware_Install,UEFI\RES_{5C6D9EF5-CA7F-48F7-B999-4786740D3082}
+
+[Firmware_Install.NT]
+CopyFiles = Firmware_CopyFiles
+
+[Firmware_CopyFiles]
+R01_021300.bin
+
+[Firmware_Install.NT.Hw]
+AddReg = Firmware_AddReg
+
+[Firmware_AddReg]
+HKR,,FirmwareId,,{5C6D9EF5-CA7F-48F7-B999-4786740D3082}
+HKR,,FirmwareVersion,%REG_DWORD%,0x00021300
+HKR,,FirmwareFilename,,{5C6D9EF5-CA7F-48F7-B999-4786740D3082}\R01_021300.bin
+
+[SourceDisksNames]
+1 = %DiskName%
+
+[SourceDisksFiles]
+R01_021300.bin = 1
+
+[DestinationDirs]
+DefaultDestDir = %DIRID_WINDOWS%,Firmware\{5C6D9EF5-CA7F-48F7-B999-4786740D3082}
+
+[Strings]
+;localizable
+Provider     = "HP Inc."
+MfgName      = "HP Inc."
+DeviceDesc   = "HP R01 System Firmware"
+DiskName     = "Firmware Update"
+
+;non-localizable
+DIRID_WINDOWS = 10
+REG_DWORD     = 0x00010001
+

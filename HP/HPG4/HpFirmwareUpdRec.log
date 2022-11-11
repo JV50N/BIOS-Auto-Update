@@ -1,0 +1,35 @@
+﻿2022/08/15 16:16:40.856|00005408|Information|CHPBiosUpdateApp::InitializeProperties|******************************************************************
+2022/08/15 16:16:40.861|00005408|Information|CHPBiosUpdateApp::InitializeProperties|**   Start of HpFirmwareUpdRec session, version 3.0.8    **
+2022/08/15 16:16:40.866|00005408|Information|CHPBiosUpdateApp::InitializeProperties|******************************************************************
+2022/08/15 16:16:40.870|00005408|Information|CHPBiosUpdateApp::InitializeProperties|Command line: 
+2022/08/15 16:16:40.876|00005408|Information|CHPBiosUpdateApp::InitializeProperties|DASL PnP ID NOT found
+2022/08/15 16:16:41.827|00005408|Information|HPBiosUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2022/08/15 16:16:41.832|00005408|Information|HPBiosUpdate::SmbiosInfo::GetSmbiosInfo|Successfully retrieved SMBIOS settings: BIOS Family = P01, version = 02.40
+2022/08/15 16:16:41.837|00005408|Information|HPBiosUpdate::SmbiosInfo::GetSmbiosInfo|PCID: ' ', AT-p supported: no, portable: yes
+2022/08/15 16:16:41.917|00005408|Information|HPBiosUpdate::PrivateWmiInfo::GetPrivateWmiSettings|Successfully retrieved Private WMI settings
+2022/08/15 16:16:41.922|00005408|Information|HPBiosUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isEfiUpdateSupported = 1, m_isEspDriveSupported = 1, m_isEncryptionSupported = 1
+2022/08/15 16:16:41.928|00005408|Information|HPBiosUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isBiosUpdateSet = 0, m_isUefiToolsRequired = 0
+2022/08/15 16:16:42.011|00005408|Information|HPBiosUpdate::PublicWmiInfo::CheckWmiSettingSetupLogIn|Setup Password is NOT set.
+2022/08/15 16:16:44.560|00005408|Information|HPBiosUpdate::PublicWmiInfo::CheckWmiSettingCurrentValue|Bios setting = Lock BIOS Version, expected = Enable, actual = Disable
+2022/08/15 16:16:47.595|00005408|Information|HPBiosUpdate::PublicWmiInfo::GetBiosSettingValue|Setting not found: Update Base Embedded Controller Firmware
+2022/08/15 16:16:47.600|00005408|Information|HPBiosUpdate::PublicWmiInfo::GetPublicWmiSettings|Successfully retrieved Public WMI settings
+2022/08/15 16:16:47.605|00005408|Information|CHPBiosUpdateApp::InitInstance|Successfully collected all BIOS information. 
+2022/08/15 16:16:47.611|00005408|Information|CHPBiosUpdateApp::MergeBinFile|Scan INF folder = [c:\SWSetup\HPG4\]
+2022/08/15 16:16:47.617|00005408|Information|CHPBiosUpdateApp::MergeBinFile|Checking INF file: c:\SWSetup\HPG4\Q01_022001.inf
+2022/08/15 16:16:47.648|00005408|Information|CHPBiosUpdateApp::CheckInfGUID|Recovery bin file is found.
+2022/08/15 16:16:47.654|00005408|Information|CHPBiosUpdateApp::MergeBinFile|Valid firmware found with c:\SWSetup\HPG4\Q01_022001.inf
+2022/08/15 16:16:47.660|00005408|Information|CHPBiosUpdateApp::MergeBinFile|Attempting to create firmware.bin/firmwareRecovery.bin....
+2022/08/15 16:16:47.668|00005408|Information|CHPBiosUpdateApp::MergeBinFile|Inf File path = c:\SWSetup\HPG4\Q01_022001.inf
+
+2022/08/15 16:16:47.695|00005408|Information|CHPBiosUpdateApp::MergeBinFile|Writing firmware.bin/firmwareRecovery.bin 
+2022/08/15 16:16:47.749|00005408|Information|CHPBiosUpdateApp::MergeBinFile|Finished writing firmware.bin/firmwareRecovery.bin
+2022/08/15 16:16:47.758|00005408|Information|CHPBiosUpdateApp::MergeBinFile|Scan INF folder = [c:\SWSetup\HPG4\]
+2022/08/15 16:16:47.763|00005408|Information|CHPBiosUpdateApp::MergeBinFile|Checking INF file: c:\SWSetup\HPG4\Q01_022001.inf
+2022/08/15 16:16:47.823|00005408|Error      |HPBiosUpdate::PrivateWmiInfo::GetBinFileName|0x2 command failed, hr = 0x0, return code = 0x3.
+2022/08/15 16:16:47.831|00005408|Information|CHPBiosUpdateApp::CheckInfGUID|GUID f59e6d5c7fcaf748b999478674d3082  not found in GetBinFileName() WMI call.
+2022/08/15 16:16:47.836|00005408|Information|CHPBiosUpdateApp::MergeBinFile|No valid firmware found
+2022/08/15 16:16:47.842|00005408|Error      |CHPBiosUpdateApp::InitInstance|Error in creating firmware.bin
+2022/08/15 16:16:52.659|00005408|Information|CHPBiosUpdateApp::PerformWizard|User canceled wizard.
+2022/08/15 16:16:52.667|00005408|Information|CHPBiosUpdateApp::ExitInstance|HpFirmwareUpdRec Return Code = 1602
+2022/08/15 16:16:52.690|00005408|Information|CHPBiosUpdateApp::ExitInstance|******************   End of HpFirmwareUpdRec session    ******************
+2022/08/15 16:16:52.705|00005408|Information|CHPBiosUpdateApp::ExitInstance|

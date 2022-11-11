@@ -1,0 +1,36 @@
+﻿2022/05/27 11:04:33.602|00000F20|Information|CHPBiosUpdateApp::InitializeProperties|******************************************************************
+2022/05/27 11:04:33.607|00000F20|Information|CHPBiosUpdateApp::InitializeProperties|**   Start of HpFirmwareUpdRec session, version 2.0.27.1    **
+2022/05/27 11:04:33.612|00000F20|Information|CHPBiosUpdateApp::InitializeProperties|******************************************************************
+2022/05/27 11:04:33.616|00000F20|Information|CHPBiosUpdateApp::InitializeProperties|Command line: 
+2022/05/27 11:04:33.621|00000F20|Information|CHPBiosUpdateApp::InitializeProperties|DASL PnP ID NOT found
+2022/05/27 11:04:33.815|00000F20|Information|HPBiosUpdate::SmbiosInfo::GetSmbiosInfo|Getting SMBIOS information
+2022/05/27 11:04:33.820|00000F20|Information|HPBiosUpdate::SmbiosInfo::GetSmbiosInfo|Successfully retrieved SMBIOS settings: BIOS Family = P01, version = 02.40
+2022/05/27 11:04:33.825|00000F20|Information|HPBiosUpdate::SmbiosInfo::GetSmbiosInfo|PCID: ' ', AT-p supported: no, portable: yes
+2022/05/27 11:04:33.892|00000F20|Information|HPBiosUpdate::PrivateWmiInfo::GetPrivateWmiSettings|Successfully retrieved Private WMI settings
+2022/05/27 11:04:33.898|00000F20|Information|HPBiosUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isEfiUpdateSupported = 1, m_isEspDriveSupported = 1, m_isEncryptionSupported = 1
+2022/05/27 11:04:33.902|00000F20|Information|HPBiosUpdate::PrivateWmiInfo::GetPrivateWmiSettings|m_isBiosUpdateSet = 0, m_isUefiToolsRequired = 0
+2022/05/27 11:04:34.015|00000F20|Information|HPBiosUpdate::PublicWmiInfo::CheckWmiSettingSetupLogIn|Setup Password is NOT set.
+2022/05/27 11:04:36.593|00000F20|Information|HPBiosUpdate::PublicWmiInfo::CheckWmiSettingCurrentValue|Bios setting = Lock BIOS Version, expected = Enable, actual = Disable
+2022/05/27 11:04:39.280|00000F20|Information|HPBiosUpdate::PublicWmiInfo::GetBiosSettingValue|Setting not found: Update Base Embedded Controller Firmware
+2022/05/27 11:04:39.287|00000F20|Information|HPBiosUpdate::PublicWmiInfo::GetPublicWmiSettings|Successfully retrieved Public WMI settings
+2022/05/27 11:04:39.293|00000F20|Information|CHPBiosUpdateApp::InitInstance|GetBiosInfo success!
+2022/05/27 11:04:39.299|00000F20|Information|CHPBiosUpdateApp::MergeBinFile|Scan INF folder = [c:\temp\test\HPG5\]
+2022/05/27 11:04:39.304|00000F20|Information|CHPBiosUpdateApp::MergeBinFile|Check INF file = c:\temp\test\HPG5\R01_021300.inf
+2022/05/27 11:04:39.338|00000F20|Information|CHPBiosUpdateApp::CheckInfGUID|BinFilePath ="c:\temp\test\HPG5\R01_021300.bin"
+
+2022/05/27 11:04:39.343|00000F20|Information|CHPBiosUpdateApp::CheckInfGUID|Recovery Bin file is found.
+2022/05/27 11:04:39.351|00000F20|Information|CHPBiosUpdateApp::MergeBinFile|MergeBinFile start....
+Inf File path =c:\temp\test\HPG5\R01_021300.inf
+
+2022/05/27 11:04:39.374|00000F20|Information|CHPBiosUpdateApp::MergeBinFile|Write Bin in process..
+2022/05/27 11:04:39.854|00000F20|Information|CHPBiosUpdateApp::MergeBinFile|Scan INF folder = [c:\temp\test\HPG5\]
+2022/05/27 11:04:39.862|00000F20|Information|CHPBiosUpdateApp::MergeBinFile|Check INF file = c:\temp\test\HPG5\R01_021300.inf
+2022/05/27 11:04:39.896|00000F20|Information|CHPBiosUpdateApp::CheckInfGUID|BinFilePath ="c:\temp\test\HPG5\R01_021300.bin"
+
+2022/05/27 11:04:39.928|00000F20|Error      |HPBiosUpdate::PrivateWmiInfo::GetBinFileName|0x2 command failed, hr = 0x0, return code = 0x3.
+2022/05/27 11:04:39.935|00000F20|Information|CHPBiosUpdateApp::CheckInfGUID|GUID f59e6d5c7fcaf748b999478674d3082  Not Found!
+2022/05/27 11:04:39.941|00000F20|Information|CHPBiosUpdateApp::MergeBinFile|No Validate firmware found!
+2022/05/27 11:04:46.410|00000F20|Information|CHPBiosUpdateApp::PerformWizard|User canceled wizard.
+2022/05/27 11:04:46.434|00000F20|Information|CHPBiosUpdateApp::ExitInstance|HpFirmwareUpdRec Return Code = 1602
+2022/05/27 11:04:46.469|00000F20|Information|CHPBiosUpdateApp::ExitInstance|******************   End of HpFirmwareUpdRec session    ******************
+2022/05/27 11:04:46.487|00000F20|Information|CHPBiosUpdateApp::ExitInstance|

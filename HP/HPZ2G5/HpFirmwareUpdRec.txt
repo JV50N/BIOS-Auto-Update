@@ -1,0 +1,83 @@
+HP Firmware Update and Recovery
+
+The purpose of the HP Firmware Update and Recovery Utility is to provide a method
+for users to flash the system BIOS/ME/other firmware from within the Windows OS environment.
+
+
+NOTES:
+     1. [Path]\HpFirmwareUpdRec -? will display the available options for this utility.
+     
+     2. If the system has a F10-Setup password enabled, then HpFirmwareUpdRec will prompt
+	 for the password to be entered before completing the flash process.
+
+USAGE:
+  
+     1.	Close all other applications before launching HpFirmwareUpdRec.
+
+     2. Open the folder containing the application and BIOS binary file.  Double-click
+        on the HpFirmwareUpdRec icon. 
+
+     3. HpFirmwareUpdRec will inform the user that a Firmware flash is about to occur.
+
+     4. The version of the Firmware image in the binary file and the version of the 
+        current system BIOS are displayed. Once OK is selected the system will restart 
+        to begin the flash process.
+
+     5.	Upon completion, the user is notified that the Firmware Flash was 
+        successful.  Select Restart.
+
+     6.	On restart, you may see the Firmware performing the final update, and the system
+        may reset several times before loading the operating system.
+
+     7.	When the system starts Windows, the Firmware update is complete.
+
+
+ADVANCED USAGE:
+
+     1.	Close all other applications before launching HpFirmwareUpdRec.
+
+     2. On the Windows Task Bar select Start, then Run, and enter 
+	the following on the command line:
+		[Path]\HpFirmwareUpdRec -f [folder path]
+
+     3. HpFirmwareUpdRec will inform the user that a Firmware Flash is about to occur.
+
+     4.	The version of the Firmware in the [bin file] and the version of the 
+	current system BIOS are displayed. Once OK is selected the system will
+        restart to begin the flash process.
+
+     5.	Upon completion, the user is notified that the Firmware Flash was 
+	successful.  Select Restart.
+
+     6.	On restart, you may see the BIOS performing the final update, and the system
+        may reset several times before loading the operating system.
+
+     7.	When the system starts Windows, the Firmware update is complete.
+
+
+
+Command Line Options
+
+
+-f"folder path" Specifies a folder path for tools to scan both inf and bin files.
+
+-ppassword-file Specify encrypted password file created with the HpqPswd utility. Valid with
+                all other options.
+
+-s	            Silent mode. Suppresses all output.
+
+-a              Eliminates version comparison when -s is present. It is ignored otherwise. There
+                is no log entry or usage dialog if it appears without the silent option.
+
+-b              If BitLocker with TPM is in use, automatically suspend it.
+
+-?              Show the same usage dialog that appears if an invalid command line is detected.
+                This options overrides all other options, including -s.
+
+
+
+Copyright (c) 2020 HP Development Company, L.P.
+
+
+Product names mentioned herein may be trademarks and/or registered trademarks 
+of their respective companies.
